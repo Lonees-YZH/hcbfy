@@ -1,0 +1,289 @@
+.main {
+	width: 980px;
+	height: 455px;
+	/*background-color: pink;*/
+	margin-left: 220px;
+	margin-top: 10px;
+	cursor:pointer;
+}
+
+.focus {
+	position:relative ;
+	float: left;
+	width: 721px;
+	height: 455px;
+	background:url(../img/adver01.jpg);
+}
+.focus ul li {
+	display: inline-block;
+	font-size: 10px;
+	line-height: 20px;
+	font-family: "΢���ź�";
+	margin: 0 1px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #333333;
+	text-align: center;
+	color: #ffffff;
+}
+.focus ul {
+	position: absolute;
+	bottom: 10px;
+	z-index: 100;
+	width: 100%;
+	text-align: center;
+}
+.focus ul li:nth-of-type(1){
+	background: orange;
+}
+.prev{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -15px;
+	width: 20px;
+	height: 30px;
+	background:rgba(0,0,0,0.7);
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	 /*cursor:pointer;*/
+}
+.next{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+	width: 20px;
+	height: 30px;
+	background:rgba(0,0,0,0.7);
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	/*cursor:pointer;*/
+}
+.newsflash {
+	float: right;
+	width: 250px;
+	height: 455px;
+}
+
+.news {
+	height: 165px;
+	border: 1px solid #E4E4E4;
+}
+
+.lifeservice {
+	overflow: hidden;
+	height: 209px;
+	border: 1px solid #E4E4E4;
+	border-top: 0;
+}
+
+.lifeservice ul {
+	width: 252px;
+}
+
+.lifeservice ul li {
+	float: left;
+	width: 63px;
+	height: 71px;
+	text-align: center;
+	border-right: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+.lifeservice ul li i {
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	background-color: pink;
+	margin-top: 12PX;
+	background: url(../img/icons.png) no-repeat -19px -15px;
+}
+
+.bargain {
+	margin-top: 5px;
+}
+
+.news-hd {
+	height: 33px;
+	line-height: 33px;
+	border-bottom: 1px dotted #e4e4e4;
+	padding: 0 15px;
+}
+
+.news-hd h5 {
+	float: left;
+	font-size: 14px;
+}
+
+.news-hd .more {
+	float: right;
+}
+
+.news-hd .more::after {
+	font-family: 'icomoon';
+	content: '\e920';
+}
+
+.news-bd ul li {
+	height: 24px;
+	line-height: 24px;
+}
+
+.news-bd {
+	margin: 5px 15px 0px;
+}
+
+
+/*推荐模块*/
+
+.recom {
+	height: 163px;
+	background-color: #ebebeb;
+	margin-top: 12px;
+}
+
+.recom_hd {
+	float: left;
+	height: 163px;
+	width: 205px;
+	background-color: #5c5251;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.recom_bd {
+	float: left;
+}
+
+.recom_bd ul li {
+	position: relative;
+	float: left;
+}
+
+.recom_bd ul li img {
+	width: 248px;
+	height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+	content: '';
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	width: 1px;
+	height: 145px;
+	background-color: #ddd;
+}
+
+.box_hd {
+	height: 30px;
+	border-bottom: 2px solid #C81623;
+}
+
+.box_hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #C81623;
+	font-weight: 400;
+}
+
+.tab_list {
+	float: right;
+	line-height: 30px;
+}
+
+.tab_list ul li {
+	float: left;
+}
+
+.tab_list ul li a {
+	margin: 0 15px;
+}
+
+.floor .w {
+	margin-top: 30px;
+}
+.box_bd{
+	height: 361px;
+	/*background-color: pink;*/
+}
+.tab_list_item>div{
+	float: left;
+	height:361px;
+}
+.col_210{
+	width: 210px;
+	background-color: #f9f9f9;
+}
+.col_210 ul li{
+	float: left;
+	 width: 85px;
+	 height:34px;
+	 border-bottom: 1px solid #ccc;
+	 text-align: center;
+	 line-height: 33px;
+	 margin-right: 10px;
+	 text-align: center;
+}
+.col_210 ul{
+	padding-left: 12px;
+}
+.col_329{
+	width: 329px;
+} 
+.col_221{
+	width: 221px;
+	border-right: 1px solid #ccc;
+}
+.col_219{
+	width: 219px;
+	background-color: #F9F9F9;
+}
+.bb{
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+.box_bd img {
+    /*过渡写到本身上， 谁做动画，给谁加*/
+    transition: all .2s;
+}
+
+
+/*我们鼠标经过图片 往右走 8px*/
+
+.box_bd img:hover{
+    margin-left: 8px;
+}
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+    display: none;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
