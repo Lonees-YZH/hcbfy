@@ -77,7 +77,7 @@ $(function(){
 		getSum();
 	});
 	//清空购物车 删除全部商品
-	$(".cart-all").click(function(){
+	$(".clear-all").click(function(){
 		$(".cart-item").remove();
 		getSum();
 	})
