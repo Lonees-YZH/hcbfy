@@ -10,7 +10,7 @@ $(function(){
 	var error_text=" <i class=\"error_icon\"></i> 请输入3-16之间英文及数字组合的用户名 ";
 	var error_text1=" <i class=\"error_icon\"></i> 请输入正确的手机号码";
 	var error_text2=" <i class=\"error_icon\"></i> 请输入6-18位之间的有效密码";
-	var error_text3=" <i class=\"error_icon\"></i> 两次输入的密码不一致 请重新输入";
+	var error_text3=" <i class=\"error_icon\"></i> 两次密码输入不一致 请重新输入";
 	regexp("username",reg,success_text,error_text);
 	regexp("phone",reg1,success_text1,error_text1);
 	regexp("password",reg2,success_text2,error_text2);
@@ -32,7 +32,6 @@ $(function(){
 
 		})
 	};
-	
 		$("#password1").mouseout(function(){
 			if(($(this).val()==$("#password").val())&&$(this).val()!=""){
 				$(this).next().addClass("success").removeClass("error").html(success_text3);
