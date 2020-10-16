@@ -9,6 +9,7 @@ $(function(){
 			$(".cart-item").removeClass("check-cart-item");
 		}
 	});
+	
 	$(".j-checkbox").change(function(){
 		if($(".j-checkbox:checked").length===$(".j-checkbox").length){
 			$(".checkall").prop("checked",true);
