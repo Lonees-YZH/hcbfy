@@ -32,6 +32,7 @@ $(function(){
 
 		})
 	};
+	
 		$("#password1").mouseout(function(){
 			if(($(this).val()==$("#password").val())&&$(this).val()!=""){
 				$(this).next().addClass("success").removeClass("error").html(success_text3);
